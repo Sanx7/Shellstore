@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de links personalizada de João Silva — criador de conteúdo sobre Tech & Lifestyle.">
+    <meta name="theme-color" content="#000000">
+    <meta name="robots" content="index, follow">
+    <title>Shell Store</title>
+    <link rel="canonical" href="https://seusite.com/"> <!-- TODO: substituir pela URL real publicada -->
+
+    <!-- Open Graph (compartilhamento em redes sociais) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Meus Links">
+    <meta property="og:title" content="Shell Store — Meus Links">
+    <meta property="og:description" content="Acesse os links e redes sociais de João Silva.">
+    <meta property="og:url" content="https://seusite.com/"> <!-- TODO: substituir pela URL real publicada -->
+    <meta property="og:image" content="assets/images/profile-placeholder.svg">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="João Silva — Meus Links">
+    <meta name="twitter:description" content="Acesse os links e redes sociais de João Silva.">
+    <meta name="twitter:image" content="assets/images/profile-placeholder.svg">
+
+    <!-- Favicons -->
+    <link rel="icon" href="https://i.imgur.com/hQ94kHN.jpeg">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/hQ94kHN.jpeg">
+
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-image-container">
+                <img id="profile-image" src="" alt="Foto de perfil" class="profile-image">
+            </div>
+            <h1 id="profile-name" class="profile-name"></h1>
+            <p id="profile-username" class="profile-username"></p>
+            <p id="profile-bio" class="profile-bio"></p>
+        </header>
+
+        <main class="links-container">
+            <div id="links-list" class="links-list">
+                <!-- Links will be dynamically inserted here -->
+            </div>
+        </main>
+
+        <footer class="social-footer">
+            <div id="social-icons" class="social-icons">
+                <!-- Social icons will be dynamically inserted here -->
+            </div>
+        </footer>
+    </div>
+
+    <div id="shoes-bg" class="shoes-bg" aria-hidden="true"></div>
+
+    <script src="src/data/profile.js"></script>
+    <script src="src/scripts/main.js"></script>
+</body>
+</html>
